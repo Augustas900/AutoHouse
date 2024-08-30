@@ -289,7 +289,7 @@ header{
 }
     .header_link,
     .header_btn,
-    header-left{
+    .header-left{
         font-size: 0.8rem;
     }
 }
