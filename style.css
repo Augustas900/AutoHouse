@@ -283,7 +283,16 @@ header{
         transform: translateX(0) ;
         opacity: 1;
     }
+    @media (max-width: 1231px){
+    .container nav-container{
+        font-size: 1.5rem;
 }
+    .header_link,
+    .header_btn{
+        font-size: 0.8rem;
+    }
+}
+    
 
 
 /*........................End animation...............*/
