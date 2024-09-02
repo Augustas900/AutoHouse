@@ -365,6 +365,28 @@ header{
         max-width: 700px;
     }
 }
+/* Mobile styles */
+@media (max-width: 600px) {
+  body {
+    font-size: 16px;
+    padding: 10px;
+  }
+  .container {
+    width: 100%;
+    padding: 15px;
+  }
+  /* Adjust any specific elements */
+  .element {
+    flex-direction: column;
+  }
+}
+
+/* General responsive design */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
 
 /*........................End animation...............*/
